@@ -1,0 +1,110 @@
+Waf: Entering directory `/home/anna/workspace/ns-allinone-3.26/ns-3.26/build'
+Waf: Leaving directory `/home/anna/workspace/ns-allinone-3.26/ns-3.26/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (4.077s)
+1.1s: 	44.3955 Mbit/s
+1.2s: 	55.936 Mbit/s
+1.3s: 	56.5248 Mbit/s
+1.4s: 	52.4032 Mbit/s
+1.5s: 	55.8182 Mbit/s
+1.6s: 	56.407 Mbit/s
+1.7s: 	50.7546 Mbit/s
+1.8s: 	46.9862 Mbit/s
+1.9s: 	51.2256 Mbit/s
+2s: 	52.2854 Mbit/s
+2.1s: 	51.5789 Mbit/s
+2.2s: 	56.8781 Mbit/s
+2.3s: 	56.1715 Mbit/s
+2.4s: 	51.4611 Mbit/s
+2.5s: 	56.7603 Mbit/s
+2.6s: 	52.1677 Mbit/s
+2.7s: 	56.0538 Mbit/s
+2.8s: 	56.1715 Mbit/s
+2.9s: 	49.3414 Mbit/s
+3s: 	55.936 Mbit/s
+3.1s: 	51.4611 Mbit/s
+3.2s: 	50.8723 Mbit/s
+3.3s: 	43.4534 Mbit/s
+3.4s: 	56.7603 Mbit/s
+3.5s: 	51.8144 Mbit/s
+3.6s: 	55.465 Mbit/s
+3.7s: 	55.7005 Mbit/s
+3.8s: 	55.465 Mbit/s
+3.9s: 	51.4611 Mbit/s
+4s: 	54.1696 Mbit/s
+4.1s: 	56.5248 Mbit/s
+4.2s: 	51.5789 Mbit/s
+4.3s: 	53.5808 Mbit/s
+4.4s: 	50.519 Mbit/s
+4.5s: 	56.2893 Mbit/s
+4.6s: 	56.1715 Mbit/s
+4.7s: 	54.5229 Mbit/s
+4.8s: 	46.9862 Mbit/s
+4.9s: 	56.2893 Mbit/s
+5s: 	46.7507 Mbit/s
+5.1s: 	44.9843 Mbit/s
+5.2s: 	56.7603 Mbit/s
+5.3s: 	46.8685 Mbit/s
+5.4s: 	52.992 Mbit/s
+5.5s: 	49.1059 Mbit/s
+5.6s: 	51.5789 Mbit/s
+5.7s: 	56.8781 Mbit/s
+5.8s: 	56.407 Mbit/s
+5.9s: 	46.8685 Mbit/s
+6s: 	54.0518 Mbit/s
+6.1s: 	46.8685 Mbit/s
+6.2s: 	54.8762 Mbit/s
+6.3s: 	45.3376 Mbit/s
+6.4s: 	47.3395 Mbit/s
+6.5s: 	51.4611 Mbit/s
+6.6s: 	56.6426 Mbit/s
+6.7s: 	51.8144 Mbit/s
+6.8s: 	47.3395 Mbit/s
+6.9s: 	55.8182 Mbit/s
+7s: 	47.104 Mbit/s
+7.1s: 	50.9901 Mbit/s
+7.2s: 	53.5808 Mbit/s
+7.3s: 	39.0963 Mbit/s
+7.4s: 	56.407 Mbit/s
+7.5s: 	50.9901 Mbit/s
+7.6s: 	55.8182 Mbit/s
+7.7s: 	56.2893 Mbit/s
+7.8s: 	54.6406 Mbit/s
+7.9s: 	55.3472 Mbit/s
+8s: 	49.9302 Mbit/s
+8.1s: 	55.5827 Mbit/s
+8.2s: 	56.407 Mbit/s
+8.3s: 	56.2893 Mbit/s
+8.4s: 	55.5827 Mbit/s
+8.5s: 	54.7584 Mbit/s
+8.6s: 	56.407 Mbit/s
+8.7s: 	48.8704 Mbit/s
+8.8s: 	50.7546 Mbit/s
+8.9s: 	49.2237 Mbit/s
+9s: 	47.4573 Mbit/s
+9.1s: 	55.3472 Mbit/s
+9.2s: 	48.9882 Mbit/s
+9.3s: 	54.0518 Mbit/s
+9.4s: 	51.6966 Mbit/s
+9.5s: 	56.7603 Mbit/s
+9.6s: 	56.2893 Mbit/s
+9.7s: 	56.5248 Mbit/s
+9.8s: 	56.1715 Mbit/s
+9.9s: 	52.0499 Mbit/s
+10s: 	53.9341 Mbit/s
+10.1s: 	48.6349 Mbit/s
+10.2s: 	56.7603 Mbit/s
+10.3s: 	50.4013 Mbit/s
+10.4s: 	50.048 Mbit/s
+10.5s: 	48.1638 Mbit/s
+10.6s: 	56.6426 Mbit/s
+10.7s: 	53.9341 Mbit/s
+10.8s: 	56.2893 Mbit/s
+10.9s: 	51.5789 Mbit/s
+
+Average throughtput: 52.674 Mbit/s
+
+real	1m48.904s
+user	1m43.700s
+sys	0m4.712s
+
