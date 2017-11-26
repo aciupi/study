@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config category="opl" default="true" name="Configuration1">
+			<ref name="wstep-problem-doboru-diety.mod" type="model">
+			</ref>
+			<ref name="wstep-problem-doboru-diety.ops" type="setting">
+			</ref>
+			<ref name="wstep-problem-doboru-diety.dat" type="data">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

@@ -1,0 +1,18 @@
+Koszty cyklu: 2
+Elementy cyklu Hamiltona:
+luk: Bremen-Hamburg
+luk: Dortmund-Norden
+luk: Duesseldorf-Essen
+luk: Frankfurt-Mannheim
+luk: Hamburg-Hannover
+luk: Karlsruhe-Stuttgart
+luk: Muenchen-Nuernberg
+luk: Stuttgart-Ulm
+luk: Ulm-Berlin
+luk: Berlin-Frankfurt
+luk: Hannover-Muenchen
+luk: Nuernberg-Karlsruhe
+luk: Koeln-Bremen
+luk: Leipzig-Koeln
+luk: Norden-Duesseldorf
+luk: Mannheim-Dortmund

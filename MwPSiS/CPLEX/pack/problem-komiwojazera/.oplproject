@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config category="opl" default="true" name="Configuration1">
+			<ref name="problem-komiwojazera.mod" type="model">
+			</ref>
+			<ref name="problem-komiwojazera.ops" type="setting">
+			</ref>
+			<ref name="problem-komiwojazera.dat" type="data">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

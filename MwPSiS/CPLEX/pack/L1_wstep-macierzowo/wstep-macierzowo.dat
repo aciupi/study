@@ -1,0 +1,17 @@
+/*********************************************
+ * OPL 12.6.0.0 Data
+ * Author: cholda
+ * Creation Date: 24 Oct 2014 at 11:14:05
+ *********************************************/
+ 
+ //n = 2;
+ ZMIENNE = {"pierwszazmienna","drugazmienna"};
+ 
+ //m = 2;
+ OGRANICZENIA = {"pierwszeograniczenie","drugieograniczenie"};
+ 
+ c = [1 3];
+ 
+ A = [[-1 1] [1 1]];
+ 
+ b = [1 2];

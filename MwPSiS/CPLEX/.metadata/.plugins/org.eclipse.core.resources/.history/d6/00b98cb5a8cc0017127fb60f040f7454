@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config default="false" name="Konfiguracja1" category="opl">
+			<ref name="mwpsis.mod" type="model">
+			</ref>
+			<ref name="mwpsis.ops" type="setting">
+			</ref>
+			<ref name="mwpsis.dat" type="data">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

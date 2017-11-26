@@ -1,0 +1,77 @@
+Zapotrzebowanie  <"Gdansk" "Warszawa"> moze uzyc sciezki: 
+nr. 1 na laczach:  <"Gdansk" "Warszawa">, 
+nr. 2 na laczach:  <"Gdansk" "Olsztyn">,  <"Olsztyn" "Warszawa">, 
+Zapotrzebowanie  <"Krakow" "Warszawa"> moze uzyc sciezki: 
+nr. 1 na laczach:  <"Krakow" "Warszawa">, 
+nr. 2 na laczach:  <"Krakow" "Poznan">,  <"Poznan" "Warszawa">, 
+Zapotrzebowanie  <"Olsztyn" "Warszawa"> moze uzyc sciezki: 
+nr. 1 na laczach:  <"Olsztyn" "Warszawa">, 
+nr. 2 na laczach:  <"Olsztyn" "Gdansk">,  <"Gdansk" "Warszawa">, 
+Zapotrzebowanie  <"Poznan" "Warszawa"> moze uzyc sciezki: 
+nr. 1 na laczach:  <"Poznan" "Warszawa">, 
+nr. 2 na laczach:  <"Poznan" "Gdansk">,  <"Gdansk" "Warszawa">, 
+Zapotrzebowanie  <"Rzeszow" "Warszawa"> moze uzyc sciezki: 
+nr. 1 na laczach:  <"Rzeszow" "Warszawa">, 
+nr. 2 na laczach:  <"Rzeszow" "Olsztyn">,  <"Olsztyn" "Warszawa">, 
+Zapotrzebowanie  <"Wroclaw" "Warszawa"> moze uzyc sciezki: 
+nr. 1 na laczach:  <"Wroclaw" "Warszawa">, 
+nr. 2 na laczach:  <"Poznan" "Warszawa">,  <"Wroclaw" "Poznan">, 
+Zapotrzebowanie  <"Warszawa" "Gdansk"> moze uzyc sciezki: 
+nr. 1 na laczach:  <"Warszawa" "Gdansk">, 
+nr. 2 na laczach:  <"Olsztyn" "Gdansk">,  <"Warszawa" "Olsztyn">, 
+Zapotrzebowanie  <"Warszawa" "Krakow"> moze uzyc sciezki: 
+nr. 1 na laczach:  <"Warszawa" "Krakow">, 
+nr. 2 na laczach:  <"Poznan" "Krakow">,  <"Warszawa" "Poznan">, 
+Zapotrzebowanie  <"Warszawa" "Olsztyn"> moze uzyc sciezki: 
+nr. 1 na laczach:  <"Warszawa" "Olsztyn">, 
+nr. 2 na laczach:  <"Gdansk" "Olsztyn">,  <"Warszawa" "Gdansk">, 
+Zapotrzebowanie  <"Warszawa" "Poznan"> moze uzyc sciezki: 
+nr. 1 na laczach:  <"Warszawa" "Poznan">, 
+nr. 2 na laczach:  <"Gdansk" "Poznan">,  <"Warszawa" "Gdansk">, 
+Zapotrzebowanie  <"Warszawa" "Rzeszow"> moze uzyc sciezki: 
+nr. 1 na laczach:  <"Warszawa" "Rzeszow">, 
+nr. 2 na laczach:  <"Olsztyn" "Rzeszow">,  <"Warszawa" "Olsztyn">, 
+Zapotrzebowanie  <"Warszawa" "Wroclaw"> moze uzyc sciezki: 
+nr. 1 na laczach:  <"Warszawa" "Wroclaw">, 
+nr. 2 na laczach:  <"Warszawa" "Poznan">,  <"Poznan" "Wroclaw">, 
+Zapotrzebowanie  <"Gdansk" "Warszawa"> uzywa sciezki: 
+nr. 1 na laczach:  <"Gdansk" "Warszawa">, i przenosi tam: 45 ruchu.
+nr. 2 na laczach:  <"Gdansk" "Olsztyn">,  <"Olsztyn" "Warszawa">, i przenosi tam: 55 ruchu.
+Zapotrzebowanie  <"Krakow" "Warszawa"> uzywa sciezki: 
+nr. 1 na laczach:  <"Krakow" "Warszawa">, i przenosi tam: 100 ruchu.
+Zapotrzebowanie  <"Olsztyn" "Warszawa"> uzywa sciezki: 
+nr. 1 na laczach:  <"Olsztyn" "Warszawa">, i przenosi tam: 100 ruchu.
+Zapotrzebowanie  <"Poznan" "Warszawa"> uzywa sciezki: 
+nr. 1 na laczach:  <"Poznan" "Warszawa">, i przenosi tam: 100 ruchu.
+Zapotrzebowanie  <"Rzeszow" "Warszawa"> uzywa sciezki: 
+nr. 1 na laczach:  <"Rzeszow" "Warszawa">, i przenosi tam: 100 ruchu.
+Zapotrzebowanie  <"Wroclaw" "Warszawa"> uzywa sciezki: 
+nr. 1 na laczach:  <"Wroclaw" "Warszawa">, i przenosi tam: 100 ruchu.
+Zapotrzebowanie  <"Warszawa" "Gdansk"> uzywa sciezki: 
+nr. 1 na laczach:  <"Warszawa" "Gdansk">, i przenosi tam: 145 ruchu.
+nr. 2 na laczach:  <"Olsztyn" "Gdansk">,  <"Warszawa" "Olsztyn">, i przenosi tam: 5 ruchu.
+Zapotrzebowanie  <"Warszawa" "Krakow"> uzywa sciezki: 
+nr. 1 na laczach:  <"Warszawa" "Krakow">, i przenosi tam: 150 ruchu.
+Zapotrzebowanie  <"Warszawa" "Olsztyn"> uzywa sciezki: 
+nr. 1 na laczach:  <"Warszawa" "Olsztyn">, i przenosi tam: 150 ruchu.
+Zapotrzebowanie  <"Warszawa" "Poznan"> uzywa sciezki: 
+nr. 1 na laczach:  <"Warszawa" "Poznan">, i przenosi tam: 150 ruchu.
+Zapotrzebowanie  <"Warszawa" "Rzeszow"> uzywa sciezki: 
+nr. 1 na laczach:  <"Warszawa" "Rzeszow">, i przenosi tam: 150 ruchu.
+Zapotrzebowanie  <"Warszawa" "Wroclaw"> uzywa sciezki: 
+nr. 1 na laczach:  <"Warszawa" "Wroclaw">, i przenosi tam: 150 ruchu.
+Suma przeplywow na  <"Gdansk" "Olsztyn"> wynosi 55
+Suma przeplywow na  <"Olsztyn" "Gdansk"> wynosi 5
+Suma przeplywow na  <"Gdansk" "Warszawa"> wynosi 45
+Suma przeplywow na  <"Warszawa" "Gdansk"> wynosi 145
+Suma przeplywow na  <"Krakow" "Warszawa"> wynosi 100
+Suma przeplywow na  <"Warszawa" "Krakow"> wynosi 150
+Suma przeplywow na  <"Olsztyn" "Warszawa"> wynosi 155
+Suma przeplywow na  <"Warszawa" "Olsztyn"> wynosi 155
+Suma przeplywow na  <"Poznan" "Warszawa"> wynosi 100
+Suma przeplywow na  <"Warszawa" "Poznan"> wynosi 150
+Suma przeplywow na  <"Rzeszow" "Warszawa"> wynosi 100
+Suma przeplywow na  <"Warszawa" "Rzeszow"> wynosi 150
+Suma przeplywow na  <"Warszawa" "Wroclaw"> wynosi 150
+Suma przeplywow na  <"Wroclaw" "Warszawa"> wynosi 100
+Wartosc funkcji celu = 3440

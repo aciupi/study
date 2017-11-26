@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config category="opl" default="true" name="Configuration1">
+			<ref name="przeplyw-maksymalny.mod" type="model">
+			</ref>
+			<ref name="przeplyw-maksymalny.ops" type="setting">
+			</ref>
+			<ref name="przeplyw-maksymalny.dat" type="data">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

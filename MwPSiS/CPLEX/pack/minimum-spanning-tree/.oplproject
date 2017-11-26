@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config category="opl" default="true" name="Konfiguracja1">
+			<ref name="minimum-spanning-tree.mod" type="model">
+			</ref>
+			<ref name="minimum-spanning-tree.ops" type="setting">
+			</ref>
+			<ref name="minimum-spanning-tree.dat" type="data">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

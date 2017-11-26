@@ -1,0 +1,98 @@
+/*********************************************
+ * OPL 12.6.1.0 Data
+ * Author: cholda
+ * Creation Date: 25-04-2016 at 13:54:43
+ *********************************************/
+
+ /*
+ Nodes = {A, B, C, D, E, F, G, H};
+  
+ Arcs = {<A,B>, <B,C>, <C,D>, <D,E>, <E,F>, <F,G>, <G,H>, <H,A>, <G,B>, <F,C>};
+ */
+
+/*
+ Nodes = {Hannover,
+ 		Frankfurt,
+ 		Hamburg,
+ 		Norden,
+ 		Bremen,
+ 		Berlin,
+ 		Muenchen,
+ 		Ulm,
+ 		Nuernberg,
+ 		Stuttgart,
+ 		Karlsruhe,
+ 		Mannheim,
+ 		Essen,
+ 		Dortmund,
+ 		Duesseldorf,
+ 		Koeln,
+ 		Leipzig};
+
+ Arcs = {<Berlin,Hamburg>, <Berlin,Hannover>,
+ 		<Berlin,Leipzig>, <Bremen,Hamburg>,
+ 		<Bremen,Hannover>, <Bremen,Norden>,
+ 		<Dortmund,Essen>, <Dortmund,Hannover>,
+ 		<Dortmund,Koeln>, <Dortmund,Norden>,
+ 		<Duesseldorf,Essen>, <Duesseldorf,Koeln>,
+ 		<Frankfurt,Hannover>, <Frankfurt,Koeln>,
+ 		<Frankfurt,Leipzig>, <Frankfurt,Mannheim>,
+ 		<Frankfurt,Nuernberg>, <Hamburg,Hannover>,
+ 		<Hannover,Leipzig>, <Karlsruhe,Mannheim>,
+ 		<Karlsruhe,Stuttgart>, <Leipzig,Nuernberg>,
+ 		<Muenchen,Nuernberg>, <Muenchen,Ulm>,
+ 		<Nuernberg,Stuttgart>, <Stuttgart,Ulm>,
+ 		<Ulm,Berlin>, <Berlin,Frankfurt>,
+ 		<Berlin,Bremen>, <Hannover,Muenchen>,
+ 		<Nuernberg,Karlsruhe>, <Koeln,Bremen>,
+ 		<Norden,Stuttgart>, <Leipzig,Koeln>,
+ 		<Koeln,Dortmund>, <Essen,Koeln>,
+ 		<Norden,Duesseldorf>, <Mannheim,Dortmund>,
+ 		<Frankfurt,Dortmund>, <Frankfurt,Hamburg>,
+ 		<Hamburg,Berlin>, <Hannover,Berlin>,
+ 		<Leipzig,Berlin>, <Hamburg,Bremen>,
+ 		<Hannover,Bremen>, <Norden,Bremen>,
+ 		<Essen,Dortmund>, <Hannover,Dortmund>,
+ 		<Koeln,Dortmund>, <Norden,Dortmund>,
+ 		<Essen,Duesseldorf>, <Koeln,Duesseldorf>,
+ 		<Hannover,Frankfurt>, <Koeln,Frankfurt>,
+ 		<Leipzig,Frankfurt>, <Mannheim,Frankfurt>,
+ 		<Nuernberg,Frankfurt>, <Hannover,Hamburg>,
+ 		<Leipzig,Hannover>, <Mannheim,Karlsruhe>,
+ 		<Stuttgart,Karlsruhe>, <Nuernberg,Leipzig>,
+ 		<Nuernberg,Muenchen>, <Ulm,Muenchen>,
+ 		<Stuttgart,Nuernberg>, <Ulm,Stuttgart>,
+ 		<Berlin,Ulm>, <Frankfurt,Berlin>,
+ 		<Bremen,Berlin>, <Muenchen,Hannover>,
+ 		<Karlsruhe,Nuernberg>, <Bremen,Koeln>,
+ 		<Stuttgart,Norden>, <Koeln,Leipzig>,
+ 		<Dortmund,Koeln>, <Koeln,Essen>,
+ 		<Duesseldorf,Norden>, <Dortmund,Mannheim>,
+ 		<Frankfurt,Dortmund>, <Frankfurt,Hamburg>};
+ */
+ 
+ /*
+  Nodes = {Gdansk,
+ 		Bydgoszcz,
+ 		Kolobrzeg,
+ 		Katowice,
+ 		Krakow,
+ 		Bialystok,
+ 		Lodz,
+ 		Poznan,
+ 		Rzeszow,
+ 		Szczecin,
+ 		Warsaw,
+ 		Wroclaw};
+
+ Arcs = {<Gdansk,Warsaw>, <Gdansk,Kolobrzeg>,
+ 		<Bydgoszcz,Kolobrzeg>, <Bydgoszcz,Poznan>,
+ 		<Bydgoszcz,Warsaw>, <Kolobrzeg,Szczecin>,
+ 		<Katowice,Krakow>, <Katowice,Lodz>,
+ 		<Katowice,Wroclaw>, <Krakow,Rzeszow>,
+ 		<Krakow,Warsaw>, <Bialystok,Rzeszow>,
+ 		<Bialystok,Warsaw>, <Lodz,Warsaw>,
+ 		<Lodz,Wroclaw>, <Poznan,Szczecin>,
+ 		<Poznan,Wroclaw>, <Gdansk,Bialystok>};
+
+*/

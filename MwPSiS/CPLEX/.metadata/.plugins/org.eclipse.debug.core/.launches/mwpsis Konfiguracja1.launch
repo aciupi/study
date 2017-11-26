@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><launchConfiguration type="opl.launchType">
+<stringAttribute key="opl.debugModel.ATTR_ELEMENT_ID" value="=mwpsisRKon\figu\racje u\ruchomieniarKon\figu\racja1"/>
+<stringAttribute key="opl.debugModel.ATTR_PROJECT" value="mwpsis"/>
+<stringAttribute key="opl.debugModel.ATTR_RUN_CONFIG" value="Konfiguracja1"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/mwpsis"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+</launchConfiguration>

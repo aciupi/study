@@ -1,0 +1,102 @@
+/*********************************************
+ * OPL 12.6.0.0 Data
+ * Author: cholda
+  *********************************************/
+
+ Nodes = {Hannover,
+ 		Frankfurt,
+ 		Hamburg,
+ 		Norden,
+ 		Bremen,
+ 		Berlin,
+ 		Muenchen,
+ 		Ulm,
+ 		Nuernberg,
+ 		Stuttgart,
+ 		Karlsruhe,
+ 		Mannheim,
+ 		Essen,
+ 		Dortmund,
+ 		Duesseldorf,
+ 		Koeln,
+ 		Leipzig};
+
+ Arcs = {<Berlin,Hamburg>, <Berlin,Hannover>,
+ 		<Berlin,Leipzig>, <Bremen,Hamburg>,
+ 		<Bremen,Hannover>, <Bremen,Norden>,
+ 		<Dortmund,Essen>, <Dortmund,Hannover>,
+ 		<Dortmund,Koeln>, <Dortmund,Norden>,
+ 		<Duesseldorf,Essen>, <Duesseldorf,Koeln>,
+ 		<Frankfurt,Hannover>, <Frankfurt,Koeln>,
+ 		<Frankfurt,Leipzig>, <Frankfurt,Mannheim>,
+ 		<Frankfurt,Nuernberg>, <Hamburg,Hannover>,
+ 		<Hannover,Leipzig>, <Karlsruhe,Mannheim>,
+ 		<Karlsruhe,Stuttgart>, <Leipzig,Nuernberg>,
+ 		<Muenchen,Nuernberg>, <Muenchen,Ulm>,
+ 		<Nuernberg,Stuttgart>, <Stuttgart,Ulm>,
+ 		<Ulm,Berlin>, <Berlin,Frankfurt>,
+ 		<Berlin,Bremen>, <Hannover,Muenchen>,
+ 		<Nuernberg,Karlsruhe>, <Koeln,Bremen>,
+ 		<Norden,Stuttgart>, <Leipzig,Koeln>,
+ 		<Koeln,Dortmund>, <Essen,Koeln>,
+ 		<Norden,Duesseldorf>, <Mannheim,Dortmund>,
+ 		<Frankfurt,Dortmund>, <Frankfurt,Hamburg>,
+ 		<Hamburg,Berlin>, <Hannover,Berlin>,
+ 		<Leipzig,Berlin>, <Hamburg,Bremen>,
+ 		<Hannover,Bremen>, <Norden,Bremen>,
+ 		<Essen,Dortmund>, <Hannover,Dortmund>,
+ 		<Koeln,Dortmund>, <Norden,Dortmund>,
+ 		<Essen,Duesseldorf>, <Koeln,Duesseldorf>,
+ 		<Hannover,Frankfurt>, <Koeln,Frankfurt>,
+ 		<Leipzig,Frankfurt>, <Mannheim,Frankfurt>,
+ 		<Nuernberg,Frankfurt>, <Hannover,Hamburg>,
+ 		<Leipzig,Hannover>, <Mannheim,Karlsruhe>,
+ 		<Stuttgart,Karlsruhe>, <Nuernberg,Leipzig>,
+ 		<Nuernberg,Muenchen>, <Ulm,Muenchen>,
+ 		<Stuttgart,Nuernberg>, <Ulm,Stuttgart>,
+ 		<Berlin,Ulm>, <Frankfurt,Berlin>,
+ 		<Bremen,Berlin>, <Muenchen,Hannover>,
+ 		<Karlsruhe,Nuernberg>, <Bremen,Koeln>,
+ 		<Stuttgart,Norden>, <Koeln,Leipzig>,
+ 		<Dortmund,Koeln>, <Koeln,Essen>,
+ 		<Duesseldorf,Norden>, <Dortmund,Mannheim>,
+ 		<Frankfurt,Dortmund>, <Frankfurt,Hamburg>};
+ 		
+ Length = [5 2
+ 		3 4
+ 		3 4
+ 		5 2
+ 		1 4
+ 		3 2
+ 		3 2
+ 		1 4
+ 		5 2
+ 		3 4
+ 		3 4
+ 		5 2
+ 		1 4
+ 		5 3
+ 		4 4
+ 		3 5
+ 		4 2
+ 		1 3
+ 		2 3
+ 		1 4
+ 		3 4
+ 		3 4
+ 		5 2
+ 		1 4
+ 		3 2
+ 		3 2
+ 		1 4
+ 		5 2
+ 		3 4
+ 		3 4
+ 		5 2
+ 		1 4
+ 		5 3
+ 		4 4
+ 		3 5
+ 		4 2
+ 		1 3
+ 		2 3];

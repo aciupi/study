@@ -1,0 +1,16 @@
+Minimalne koszty = 2.998042231
+Bulka tarta: 6 g -- Cena: 0.018 zl -- Energia: 20.82 kcal
+Chleb baltonowski: 75 g -- Cena: 0.375 zl -- Energia: 184.5 kcal
+Chleb pszenny: 150 g -- Cena: 0.75 zl -- Energia: 373.5 kcal
+Chleb zwykly: 18.909529903 g -- Cena: 0.09454765 zl -- Energia: 46.328348261 kcal
+Ciasto kruche podstawowe: 100 g -- Cena: 0.7 zl -- Energia: 429 kcal
+Cukier: 3 g -- Cena: 0.0045 zl -- Energia: 12.15 kcal
+Czosnek: 2 g -- Cena: 0.004 zl -- Energia: 2.92 kcal
+Dynia, pestki: 20 g -- Cena: 0.2 zl -- Energia: 111.2 kcal
+Kiszka krwista: 45 g -- Cena: 0.315 zl -- Energia: 181.8 kcal
+Kiszka pasztetowa: 20.652441002 g -- Cena: 0.144567087 zl -- Energia: 79.305373448 kcal
+Kompot z jablek: 10 g -- Cena: 0.006 zl -- Energia: 5.1 kcal
+Kompot z wisni: 10 g -- Cena: 0.006 zl -- Energia: 6.9 kcal
+Kurczak, watroba: 76.085498744 g -- Cena: 0.380427494 zl -- Energia: 103.476278291 kcal
+
+Calkowita Energia: 1557

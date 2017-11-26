@@ -1,0 +1,52 @@
+/*********************************************
+ * OPL 12.6.0.0 Data
+ * Author: cholda
+ * Creation Date: 24 Oct 2014 at 12:00:09
+ *********************************************/
+
+ SKLADNIKI_POKARMOWE = {
+ "Energia [kcal]",
+ "Bialko [g]",
+ "Weglowodany [g]",
+ "Tluszcze [g]",
+ "Kwasy nasycone [g]",
+ "Blonnik [g]",
+ "Sod [g]",
+ "Cukry [g]",
+ "Woda [g]"};
+  
+ ZAPOTRZEBOWANIE = [2500 60 340 0 0 25 0 0 1500];
+ 
+ MAX_SKLADNIKA = [10000 240 1360 80 30 100 2.4 110 3000];
+
+ PRODUKTY = {
+"Maslo [100g]", //0
+"Ser zolty [100g]", //0
+"Wieprzowina [100g]", //0
+"Chleb [100g]", //4.2901 = 42.9 dag chleba
+"Woda [100g]", //0.21187 = 21.1 dag wody
+"Kurczak [100g]", //0
+"Jablko [100g]", //5 = 0.5 kg jablek
+"Herbata czarna [100g]", //0
+"Cola [100g]", //0
+"Ziemniaki [100g]", //5 = 0.5 kg ziemniakow
+"Pomidory [100g]", //0
+"Salata zielona [100g]", //5 = 0.5 kg salaty (sic!)
+"Czekolada mleczna [100g]", //1.3467 = 134 gram czekolady
+"Makaron [100g]"}; //0
+ 
+ ZAWARTOSC_JEDNOSTKOWA = [
+[717 356 748 267 0 127 25 1 41 86 18 15 538 130] //energia
+[0.85 24.94 5.05 10.72 0 18.14 0.6 0 0 1.71 0.88 1.36 10.22 5.28] //bialko
+[0.06 2.22 0 48.68 0 1.14 5.7 0.3 10.58 20.01 3.89 2.87 54.34 23.54] //weglowodany
+[81.11 27.44 80.50 3.24 0 5.04 0.3 0 0 0.1 0.2 0.15 33.21 1.74] //tluszcze
+[51.36 17.61 29.38 0.77 0 1.54 0 0.002 0 0.026 0.028 0.020 14.13 0.408] //kwasy
+[0 0 0 4 0 0 0 0 0 1.8 1.2 1.3 3.8 0] //blonnik
+[0.643 0.819 2.684 0.508 0.002 0.077 0 0.003 0.004 0.005 0.005 0.028 0.041 0.083] //sod
+[0.06 2.22 0 5.91 0 0 0 0 10.75 0.85 2.63 0.78 47.22 0] //cukier
+[15.87 41.46 11 35.2 99.98 74.73 93 99.7 89.62 77.46 94.62 94.98 0.45 68.71] //woda
+];
+ 
+ WARTOSC_MAKSYMALNA = [1 1 2 5 30 3 5 15 10 5 5 5 1.5 5];
+ 
+ KOSZT = [1.5 2 3 0.25 0.2 1.8 0.2 0.25 0.7 0.3 0.8 0.12 1.2 0.9];

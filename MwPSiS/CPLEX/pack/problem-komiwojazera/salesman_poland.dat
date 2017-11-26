@@ -1,0 +1,41 @@
+/*********************************************
+ * OPL 12.6.0.0 Data
+ * Author: cholda
+ *********************************************/
+
+ Nodes = {Gdansk,
+ 		Bydgoszcz,
+ 		Kolobrzeg,
+ 		Katowice,
+ 		Krakow,
+ 		Bialystok,
+ 		Lodz,
+ 		Poznan,
+ 		Rzeszow,
+ 		Szczecin,
+ 		Warsaw,
+ 		Wroclaw};
+
+ Arcs = {<Gdansk,Warsaw>, <Gdansk,Kolobrzeg>,
+ 		<Bydgoszcz,Kolobrzeg>, <Bydgoszcz,Poznan>,
+ 		<Bydgoszcz,Warsaw>, <Kolobrzeg,Szczecin>,
+ 		<Katowice,Krakow>, <Katowice,Lodz>,
+ 		<Katowice,Wroclaw>, <Krakow,Rzeszow>,
+ 		<Krakow,Warsaw>, <Bialystok,Rzeszow>,
+ 		<Bialystok,Warsaw>, <Lodz,Warsaw>,
+ 		<Lodz,Wroclaw>, <Poznan,Szczecin>,
+ 		<Poznan,Wroclaw>, <Gdansk,Bialystok>};
+
+Length = [1 4
+ 		5 2
+ 		3 1
+ 		2 4
+ 		5 3
+ 		4 1
+ 		2 5
+ 		1 3
+ 		4 2
+ 		3 5
+ 		1 4
+ 		5 2
+ 		3 1];

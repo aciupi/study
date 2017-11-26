@@ -1,0 +1,10 @@
+Wezly = 1..5
+Luki =  {<1 2> <1 3> <1 4> <2 3> <2 4> <3 4> <3 5> <4 5>}
+Wartosc przeplywu maksymalnego = 6
+Przeplyw x[ <1 2>] ma wartosc 2
+Przeplyw x[ <1 3>] ma wartosc 3
+Przeplyw x[ <1 4>] ma wartosc 1
+Przeplyw x[ <2 4>] ma wartosc 2
+Przeplyw x[ <3 4>] ma wartosc 1
+Przeplyw x[ <3 5>] ma wartosc 2
+Przeplyw x[ <4 5>] ma wartosc 4

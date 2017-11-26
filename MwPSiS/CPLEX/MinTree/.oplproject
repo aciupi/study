@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config default="true" name="Konfiguracja1" category="opl">
+			<ref name="MinTree.mod" type="model">
+			</ref>
+			<ref name="MinTree.ops" type="setting">
+			</ref>
+			<ref name="MinTree.dat" type="data">
+			</ref>
+		</config>
+	</configs>
+	
+</project>
