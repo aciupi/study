@@ -90,53 +90,75 @@
  execute {
 // 	writeln(Arcs);
 // 	writeln(Existing_arcs);
+	var results_file = new IloOplOutputFile("results.txt");
  	writeln("Dystrybucja ruchu:");
+	results_file.writeln("Dystrybucja ruchu:");
 	for (var d in Demands){
-	 	writeln("Ruch miêdzy:", d.src, "(", NodesNames[d.src], ") - ", d.dst, "(", NodesNames[d.dst], "), ")
+	 	writeln("Ruch miêdzy:", d.src, "(", NodesNames[d.src], ") - ", d.dst, "(", NodesNames[d.dst], "), ");
+		results_file.writeln("Ruch miêdzy:", d.src, "(", NodesNames[d.src], ") - ", d.dst, "(", NodesNames[d.dst], "), ");
 		var cost = 0;
 		for(var a in Arcs){
 			if(Paths[d][a] > 0){
 				write(a.src, "(", NodesNames[a.src], ") - ", a.dst, "(", NodesNames[a.dst], "), ");
+				results_file.write(a.src, "(", NodesNames[a.src], ") - ", a.dst, "(", NodesNames[a.dst], "), ");
 				cost += Paths[d][a]*Cost[a];
  			}				 			
 		}
 		writeln();
-		write("Poszerzone: ")
+		results_file.writeln();
+		write("Poszerzone: ");
+		results_file.write("Poszerzone: ");
 		for(var a in ExistingArcs){
 			if(AdditionalPaths[d][a] > 0){
 				write(a.src, "(", NodesNames[a.src], ") - ", a.dst, "(", NodesNames[a.dst], "), ");
+				results_file.write(a.src, "(", NodesNames[a.src], ") - ", a.dst, "(", NodesNames[a.dst], "), ");
 				cost += AdditionalPaths[d][a]*AdditionalCost[a];
  			}				 			
 		}
-		writeln();   		
+		writeln();
+		results_file.writeln();
 		writeln("Koszt dystrybucji: ", cost);
+		results_file.writeln("Koszt dystrybucji: ", cost);
 	} 
 	for (var i in Arcs){ 
 	 	var flow = 0, existing = 0;
 	 	for (var d in Demands){
-			if(Paths[d][i] > 0)
-				flow = flow + Volume[d];	 			
+			if(Paths[d][i] > 0){
+				flow = flow + Volume[d];
+			}
 		}
-		for (var e in ExistingArcs)
-			if (i.src == e.src && i.dst == e.dst)
+		for (var e in ExistingArcs){
+			if (i.src == e.src && i.dst == e.dst){
 				existing = 1;
+			}
+		}
 		if (flow > 0){
-			if (existing == 1)
-				write("Istniejacy ")
-			else
-				write("Nowy ")
-			writeln("³uk: ", i, " przenosi ruch: ", flow); 
+			if (existing == 1){
+				write("Istniejacy ");
+				results_file.write("Istniejacy "); 
+			}
+			else{
+				write("Nowy ");
+				results_file.write("Nowy "); 
+			}
+			writeln("³uk: ", i, " przenosi ruch: ", flow);
+			results_file.writeln("³uk: ", i, " przenosi ruch: ", flow);
 		}	
 	}
 	for (var e in ExistingArcs){
 		var flow = 0;	
 		for (var d in Demands){
-			if(AdditionalPaths[d][e] > 0)
-				flow = flow + Volume[d];		
+			if(AdditionalPaths[d][e] > 0){
+				flow = flow + Volume[d];
+			}
 		}
-		if (flow > 0)
+		if (flow > 0){
 			writeln("Poszerzono ³uk: ", e, ", przenosi dodatkowy ruch: ", flow);
+			results_file.writeln("Poszerzono ³uk: ", e, ", przenosi dodatkowy ruch: ", flow); 
+		}
 	}
 	writeln("Wartoœæ mincost = ", cplex.getObjValue());
+	results_file.writeln("Wartoœæ mincost = ", cplex.getObjValue());
+	results_file.close();
 }
  
