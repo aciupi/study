@@ -72,7 +72,8 @@
 	//brak straty w ruchu
 	forall (d in Demands)
 	  	forall(n in Nodes: n!=d.src && n!=d.dst)
-	    	sum(i in Arcs: i.src==n)Paths[d][i] + sum(i in ExistingArcs: i.src==n)AdditionalPaths[d][i] - sum(j in Arcs: j.dst==n)Paths[d][j] - sum(j in ExistingArcs: j.dst==n)AdditionalPaths[d][j] == 0;   
+	    		//sum(i in Arcs: i.src==n)Paths[d][i] + sum(i in ExistingArcs: i.src==n)AdditionalPaths[d][i] - sum(j in Arcs: j.dst==n)Paths[d][j] - sum(j in ExistingArcs: j.dst==n)AdditionalPaths[d][j] == 0;
+			sum(i in Arcs: i.src==n && Paths[d][i]==1) i.src + sum(i in ExistingArcs: i.src==n && AdditionalPaths[d][i]==1) i.src - sum(j in Arcs: j.dst==n && Paths[d][j]==1) j.dst - sum(j in ExistingArcs: j.dst==n && AdditionalPaths[d][j]==1) j.dst == 0;   
  }
  
  // ########################################################################################
@@ -91,7 +92,7 @@
 // 	writeln(Existing_arcs);
  	writeln("Dystrybucja ruchu:");
 	for (var d in Demands){
-	 	writeln("Ruch miêdzy:", d.src, "(", NodesNames[d.src], ") - ", d.dst, "(", NodesNames[d.dst], "), ")
+	 	writeln("Ruch miÃªdzy:", d.src, "(", NodesNames[d.src], ") - ", d.dst, "(", NodesNames[d.dst], "), ")
 		var cost = 0;
 		for(var a in Arcs){
 			if(Paths[d][a] > 0){
@@ -124,7 +125,7 @@
 				write("Istniejacy ")
 			else
 				write("Nowy ")
-			writeln("³uk: ", i, " przenosi ruch: ", flow); 
+			writeln("Â³uk: ", i, " przenosi ruch: ", flow); 
 		}	
 	}
 	for (var e in ExistingArcs){
@@ -134,8 +135,8 @@
 				flow = flow + Volume[d];		
 		}
 		if (flow > 0)
-			writeln("Poszerzono ³uk: ", e, ", przenosi dodatkowy ruch: ", flow);
+			writeln("Poszerzono Â³uk: ", e, ", przenosi dodatkowy ruch: ", flow);
 	}
-	writeln("Wartoœæ mincost = ", cplex.getObjValue());
+	writeln("WartoÅ“Ã¦ mincost = ", cplex.getObjValue());
 }
  
