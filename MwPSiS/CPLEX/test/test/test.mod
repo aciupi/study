@@ -71,9 +71,10 @@
 	
 	//brak straty w ruchu
 	forall (d in Demands)
-	  	forall(n in Nodes: n!=d.src && n!=d.dst)
+	  	//forall(n in Nodes: n!=d.src && n!=d.dst)
 	    		//sum(i in Arcs: i.src==n)Paths[d][i] + sum(i in ExistingArcs: i.src==n)AdditionalPaths[d][i] - sum(j in Arcs: j.dst==n)Paths[d][j] - sum(j in ExistingArcs: j.dst==n)AdditionalPaths[d][j] == 0;
-			sum(i in Arcs: i.src==n && Paths[d][i]==1) i.src + sum(i in ExistingArcs: i.src==n && AdditionalPaths[d][i]==1) i.src - sum(j in Arcs: j.dst==n && Paths[d][j]==1) j.dst - sum(j in ExistingArcs: j.dst==n && AdditionalPaths[d][j]==1) j.dst == 0;   
+			//sum(i in Arcs: i.src==n && Paths[d][i]==1) i.src + sum(i in ExistingArcs: i.src==n && AdditionalPaths[d][i]==1) i.src - sum(j in Arcs: j.dst==n && Paths[d][j]==1) j.dst - sum(j in ExistingArcs: j.dst==n && AdditionalPaths[d][j]==1) j.dst == 0;   
+ 		sum(i in Arcs: i.src!=d.src && Paths[d][i]==1) i.src + sum(i in ExistingArcs: i.src!=d.src && AdditionalPaths[d][i]==1) i.src - sum(j in Arcs: j.dst!=d.dst && Paths[d][j]==1) j.dst - sum(j in ExistingArcs: j.dst!=d.dst && AdditionalPaths[d][j]==1) j.dst == 0;
  }
  
  // ########################################################################################
