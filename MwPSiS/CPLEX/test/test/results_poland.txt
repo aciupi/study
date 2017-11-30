@@ -1,0 +1,705 @@
+Dystrybucja ruchu:
+
+Ruch miêdzy:8(Poznan) - 4(Katowice), o wartosci: 40
+12(Wroclaw) - 4(Katowice), 8(Poznan) - 12(Wroclaw), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:7(Lodz) - 10(Szczecin), o wartosci: 30
+7(Lodz) - 12(Wroclaw), 12(Wroclaw) - 8(Poznan), 8(Poznan) - 10(Szczecin), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:1(Gdansk) - 8(Poznan), o wartosci: 70
+3(Kolobrzeg) - 2(Bydgoszcz), 1(Gdansk) - 3(Kolobrzeg), 2(Bydgoszcz) - 8(Poznan), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:2(Bydgoszcz) - 7(Lodz), o wartosci: 50
+8(Poznan) - 12(Wroclaw), 2(Bydgoszcz) - 8(Poznan), 12(Wroclaw) - 7(Lodz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:1(Gdansk) - 11(Warsaw), o wartosci: 100
+1(Gdansk) - 11(Warsaw), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:4(Katowice) - 8(Poznan), o wartosci: 40
+4(Katowice) - 12(Wroclaw), 12(Wroclaw) - 8(Poznan), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:3(Kolobrzeg) - 6(Bialystok), o wartosci: 30
+1(Gdansk) - 6(Bialystok), 3(Kolobrzeg) - 1(Gdansk), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:2(Bydgoszcz) - 12(Wroclaw), o wartosci: 100
+3(Kolobrzeg) - 6(Bialystok), 6(Bialystok) - 12(Wroclaw), 2(Bydgoszcz) - 3(Kolobrzeg), 
+Poszerzone: 
+Koszt dystrybucji: 25.608753948
+
+Ruch miêdzy:9(Rzeszow) - 6(Bialystok), o wartosci: 30
+9(Rzeszow) - 6(Bialystok), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:6(Bialystok) - 9(Rzeszow), o wartosci: 30
+6(Bialystok) - 9(Rzeszow), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:5(Krakow) - 1(Gdansk), o wartosci: 40
+5(Krakow) - 11(Warsaw), 11(Warsaw) - 1(Gdansk), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:11(Warsaw) - 9(Rzeszow), o wartosci: 20
+11(Warsaw) - 5(Krakow), 5(Krakow) - 9(Rzeszow), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:10(Szczecin) - 1(Gdansk), o wartosci: 90
+10(Szczecin) - 3(Kolobrzeg), 3(Kolobrzeg) - 1(Gdansk), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:7(Lodz) - 8(Poznan), o wartosci: 10
+7(Lodz) - 12(Wroclaw), 12(Wroclaw) - 8(Poznan), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:12(Wroclaw) - 6(Bialystok), o wartosci: 60
+7(Lodz) - 11(Warsaw), 11(Warsaw) - 6(Bialystok), 12(Wroclaw) - 7(Lodz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:11(Warsaw) - 8(Poznan), o wartosci: 30
+10(Szczecin) - 8(Poznan), 11(Warsaw) - 6(Bialystok), 6(Bialystok) - 10(Szczecin), 
+Poszerzone: 
+Koszt dystrybucji: 7.524104505
+
+Ruch miêdzy:8(Poznan) - 7(Lodz), o wartosci: 10
+8(Poznan) - 12(Wroclaw), 12(Wroclaw) - 7(Lodz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:7(Lodz) - 11(Warsaw), o wartosci: 40
+7(Lodz) - 11(Warsaw), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:1(Gdansk) - 5(Krakow), o wartosci: 40
+1(Gdansk) - 11(Warsaw), 11(Warsaw) - 5(Krakow), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:5(Krakow) - 11(Warsaw), o wartosci: 60
+5(Krakow) - 11(Warsaw), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:4(Katowice) - 3(Kolobrzeg), o wartosci: 10
+4(Katowice) - 7(Lodz), 7(Lodz) - 12(Wroclaw), 10(Szczecin) - 3(Kolobrzeg), 12(Wroclaw) - 8(Poznan), 8(Poznan) - 10(Szczecin), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:3(Kolobrzeg) - 7(Lodz), o wartosci: 40
+1(Gdansk) - 11(Warsaw), 11(Warsaw) - 7(Lodz), 3(Kolobrzeg) - 1(Gdansk), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:9(Rzeszow) - 3(Kolobrzeg), o wartosci: 60
+9(Rzeszow) - 6(Bialystok), 1(Gdansk) - 3(Kolobrzeg), 6(Bialystok) - 1(Gdansk), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:6(Bialystok) - 12(Wroclaw), o wartosci: 60
+4(Katowice) - 12(Wroclaw), 6(Bialystok) - 11(Warsaw), 11(Warsaw) - 7(Lodz), 7(Lodz) - 4(Katowice), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:5(Krakow) - 6(Bialystok), o wartosci: 10
+5(Krakow) - 11(Warsaw), 1(Gdansk) - 6(Bialystok), 11(Warsaw) - 1(Gdansk), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:10(Szczecin) - 4(Katowice), o wartosci: 60
+10(Szczecin) - 8(Poznan), 8(Poznan) - 12(Wroclaw), 7(Lodz) - 4(Katowice), 12(Wroclaw) - 7(Lodz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:7(Lodz) - 1(Gdansk), o wartosci: 60
+7(Lodz) - 11(Warsaw), 11(Warsaw) - 1(Gdansk), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:12(Wroclaw) - 1(Gdansk), o wartosci: 110
+12(Wroclaw) - 6(Bialystok), 6(Bialystok) - 1(Gdansk), 
+Poszerzone: 
+Koszt dystrybucji: 14.042877458
+
+Ruch miêdzy:8(Poznan) - 6(Bialystok), o wartosci: 20
+8(Poznan) - 2(Bydgoszcz), 1(Gdansk) - 6(Bialystok), 2(Bydgoszcz) - 3(Kolobrzeg), 3(Kolobrzeg) - 1(Gdansk), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:1(Gdansk) - 2(Bydgoszcz), o wartosci: 10
+3(Kolobrzeg) - 2(Bydgoszcz), 1(Gdansk) - 3(Kolobrzeg), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:4(Katowice) - 2(Bydgoszcz), o wartosci: 20
+5(Krakow) - 11(Warsaw), 4(Katowice) - 5(Krakow), 11(Warsaw) - 2(Bydgoszcz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:3(Kolobrzeg) - 12(Wroclaw), o wartosci: 90
+3(Kolobrzeg) - 6(Bialystok), 6(Bialystok) - 12(Wroclaw), 
+Poszerzone: 
+Koszt dystrybucji: 25.608753948
+
+Ruch miêdzy:8(Poznan) - 9(Rzeszow), o wartosci: 10
+12(Wroclaw) - 4(Katowice), 5(Krakow) - 9(Rzeszow), 8(Poznan) - 12(Wroclaw), 4(Katowice) - 5(Krakow), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:4(Katowice) - 12(Wroclaw), o wartosci: 80
+4(Katowice) - 7(Lodz), 7(Lodz) - 12(Wroclaw), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:3(Kolobrzeg) - 2(Bydgoszcz), o wartosci: 10
+3(Kolobrzeg) - 2(Bydgoszcz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:9(Rzeszow) - 10(Szczecin), o wartosci: 10
+4(Katowice) - 12(Wroclaw), 12(Wroclaw) - 8(Poznan), 9(Rzeszow) - 5(Krakow), 8(Poznan) - 10(Szczecin), 5(Krakow) - 4(Katowice), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:10(Szczecin) - 5(Krakow), o wartosci: 50
+6(Bialystok) - 9(Rzeszow), 9(Rzeszow) - 5(Krakow), 10(Szczecin) - 6(Bialystok), 
+Poszerzone: 
+Koszt dystrybucji: 7.524104505
+
+Ruch miêdzy:6(Bialystok) - 2(Bydgoszcz), o wartosci: 40
+6(Bialystok) - 9(Rzeszow), 5(Krakow) - 11(Warsaw), 9(Rzeszow) - 5(Krakow), 11(Warsaw) - 2(Bydgoszcz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:11(Warsaw) - 4(Katowice), o wartosci: 70
+11(Warsaw) - 7(Lodz), 7(Lodz) - 4(Katowice), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:8(Poznan) - 3(Kolobrzeg), o wartosci: 50
+8(Poznan) - 2(Bydgoszcz), 2(Bydgoszcz) - 3(Kolobrzeg), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:12(Wroclaw) - 11(Warsaw), o wartosci: 10
+7(Lodz) - 11(Warsaw), 12(Wroclaw) - 7(Lodz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:2(Bydgoszcz) - 6(Bialystok), o wartosci: 40
+2(Bydgoszcz) - 11(Warsaw), 11(Warsaw) - 6(Bialystok), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:1(Gdansk) - 12(Wroclaw), o wartosci: 110
+6(Bialystok) - 12(Wroclaw), 1(Gdansk) - 6(Bialystok), 
+Poszerzone: 
+Koszt dystrybucji: 14.042877458
+
+Ruch miêdzy:4(Katowice) - 7(Lodz), o wartosci: 30
+4(Katowice) - 7(Lodz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:2(Bydgoszcz) - 11(Warsaw), o wartosci: 90
+2(Bydgoszcz) - 11(Warsaw), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:9(Rzeszow) - 7(Lodz), o wartosci: 20
+4(Katowice) - 7(Lodz), 9(Rzeszow) - 5(Krakow), 5(Krakow) - 4(Katowice), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:5(Krakow) - 2(Bydgoszcz), o wartosci: 30
+5(Krakow) - 11(Warsaw), 11(Warsaw) - 2(Bydgoszcz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:11(Warsaw) - 10(Szczecin), o wartosci: 10
+4(Katowice) - 7(Lodz), 1(Gdansk) - 3(Kolobrzeg), 11(Warsaw) - 1(Gdansk), 3(Kolobrzeg) - 10(Szczecin), 7(Lodz) - 4(Katowice), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:10(Szczecin) - 8(Poznan), o wartosci: 20
+10(Szczecin) - 8(Poznan), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:7(Lodz) - 5(Krakow), o wartosci: 20
+4(Katowice) - 5(Krakow), 7(Lodz) - 4(Katowice), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:6(Bialystok) - 5(Krakow), o wartosci: 10
+11(Warsaw) - 5(Krakow), 6(Bialystok) - 11(Warsaw), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:12(Wroclaw) - 5(Krakow), o wartosci: 70
+12(Wroclaw) - 4(Katowice), 4(Katowice) - 5(Krakow), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:11(Warsaw) - 5(Krakow), o wartosci: 60
+11(Warsaw) - 5(Krakow), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:8(Poznan) - 2(Bydgoszcz), o wartosci: 60
+8(Poznan) - 2(Bydgoszcz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:7(Lodz) - 12(Wroclaw), o wartosci: 50
+7(Lodz) - 12(Wroclaw), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:12(Wroclaw) - 10(Szczecin), o wartosci: 20
+12(Wroclaw) - 8(Poznan), 8(Poznan) - 10(Szczecin), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:1(Gdansk) - 6(Bialystok), o wartosci: 50
+1(Gdansk) - 6(Bialystok), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:2(Bydgoszcz) - 1(Gdansk), o wartosci: 10
+2(Bydgoszcz) - 11(Warsaw), 11(Warsaw) - 1(Gdansk), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:1(Gdansk) - 9(Rzeszow), o wartosci: 80
+6(Bialystok) - 9(Rzeszow), 1(Gdansk) - 6(Bialystok), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:5(Krakow) - 12(Wroclaw), o wartosci: 70
+4(Katowice) - 12(Wroclaw), 5(Krakow) - 4(Katowice), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:4(Katowice) - 6(Bialystok), o wartosci: 20
+7(Lodz) - 11(Warsaw), 4(Katowice) - 7(Lodz), 11(Warsaw) - 6(Bialystok), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:3(Kolobrzeg) - 8(Poznan), o wartosci: 50
+10(Szczecin) - 8(Poznan), 3(Kolobrzeg) - 10(Szczecin), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:9(Rzeszow) - 4(Katowice), o wartosci: 50
+9(Rzeszow) - 5(Krakow), 5(Krakow) - 4(Katowice), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:6(Bialystok) - 11(Warsaw), o wartosci: 50
+6(Bialystok) - 11(Warsaw), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:5(Krakow) - 7(Lodz), o wartosci: 20
+4(Katowice) - 7(Lodz), 5(Krakow) - 4(Katowice), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:10(Szczecin) - 3(Kolobrzeg), o wartosci: 70
+10(Szczecin) - 3(Kolobrzeg), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:7(Lodz) - 2(Bydgoszcz), o wartosci: 50
+8(Poznan) - 2(Bydgoszcz), 7(Lodz) - 12(Wroclaw), 12(Wroclaw) - 8(Poznan), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:6(Bialystok) - 8(Poznan), o wartosci: 20
+6(Bialystok) - 11(Warsaw), 2(Bydgoszcz) - 8(Poznan), 11(Warsaw) - 2(Bydgoszcz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:12(Wroclaw) - 4(Katowice), o wartosci: 80
+12(Wroclaw) - 4(Katowice), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:8(Poznan) - 5(Krakow), o wartosci: 30
+12(Wroclaw) - 4(Katowice), 8(Poznan) - 12(Wroclaw), 4(Katowice) - 5(Krakow), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:1(Gdansk) - 3(Kolobrzeg), o wartosci: 20
+1(Gdansk) - 3(Kolobrzeg), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:2(Bydgoszcz) - 4(Katowice), o wartosci: 20
+2(Bydgoszcz) - 11(Warsaw), 11(Warsaw) - 5(Krakow), 5(Krakow) - 4(Katowice), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:5(Krakow) - 9(Rzeszow), o wartosci: 40
+5(Krakow) - 9(Rzeszow), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:4(Katowice) - 1(Gdansk), o wartosci: 30
+5(Krakow) - 11(Warsaw), 11(Warsaw) - 1(Gdansk), 4(Katowice) - 5(Krakow), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:3(Kolobrzeg) - 9(Rzeszow), o wartosci: 60
+3(Kolobrzeg) - 6(Bialystok), 6(Bialystok) - 9(Rzeszow), 
+Poszerzone: 
+Koszt dystrybucji: 11.56587649
+
+Ruch miêdzy:10(Szczecin) - 9(Rzeszow), o wartosci: 10
+1(Gdansk) - 11(Warsaw), 6(Bialystok) - 9(Rzeszow), 10(Szczecin) - 3(Kolobrzeg), 11(Warsaw) - 6(Bialystok), 3(Kolobrzeg) - 1(Gdansk), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:9(Rzeszow) - 1(Gdansk), o wartosci: 80
+9(Rzeszow) - 6(Bialystok), 6(Bialystok) - 1(Gdansk), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:7(Lodz) - 3(Kolobrzeg), o wartosci: 40
+7(Lodz) - 11(Warsaw), 1(Gdansk) - 3(Kolobrzeg), 11(Warsaw) - 1(Gdansk), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:8(Poznan) - 12(Wroclaw), o wartosci: 40
+8(Poznan) - 12(Wroclaw), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:4(Katowice) - 11(Warsaw), o wartosci: 70
+7(Lodz) - 11(Warsaw), 4(Katowice) - 7(Lodz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:9(Rzeszow) - 11(Warsaw), o wartosci: 20
+5(Krakow) - 11(Warsaw), 9(Rzeszow) - 5(Krakow), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:10(Szczecin) - 12(Wroclaw), o wartosci: 20
+10(Szczecin) - 8(Poznan), 8(Poznan) - 12(Wroclaw), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:6(Bialystok) - 1(Gdansk), o wartosci: 50
+6(Bialystok) - 1(Gdansk), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:11(Warsaw) - 1(Gdansk), o wartosci: 100
+11(Warsaw) - 1(Gdansk), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:2(Bydgoszcz) - 5(Krakow), o wartosci: 30
+2(Bydgoszcz) - 11(Warsaw), 11(Warsaw) - 5(Krakow), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:4(Katowice) - 10(Szczecin), o wartosci: 60
+4(Katowice) - 12(Wroclaw), 12(Wroclaw) - 8(Poznan), 8(Poznan) - 10(Szczecin), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:3(Kolobrzeg) - 4(Katowice), o wartosci: 10
+3(Kolobrzeg) - 2(Bydgoszcz), 8(Poznan) - 12(Wroclaw), 2(Bydgoszcz) - 8(Poznan), 7(Lodz) - 4(Katowice), 12(Wroclaw) - 7(Lodz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:2(Bydgoszcz) - 10(Szczecin), o wartosci: 80
+2(Bydgoszcz) - 8(Poznan), 8(Poznan) - 10(Szczecin), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:9(Rzeszow) - 8(Poznan), o wartosci: 10
+5(Krakow) - 11(Warsaw), 2(Bydgoszcz) - 8(Poznan), 9(Rzeszow) - 5(Krakow), 11(Warsaw) - 2(Bydgoszcz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:5(Krakow) - 3(Kolobrzeg), o wartosci: 20
+5(Krakow) - 11(Warsaw), 2(Bydgoszcz) - 3(Kolobrzeg), 11(Warsaw) - 2(Bydgoszcz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:10(Szczecin) - 7(Lodz), o wartosci: 30
+10(Szczecin) - 8(Poznan), 8(Poznan) - 12(Wroclaw), 12(Wroclaw) - 7(Lodz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:7(Lodz) - 6(Bialystok), o wartosci: 10
+9(Rzeszow) - 6(Bialystok), 5(Krakow) - 9(Rzeszow), 4(Katowice) - 5(Krakow), 7(Lodz) - 4(Katowice), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:6(Bialystok) - 4(Katowice), o wartosci: 20
+6(Bialystok) - 9(Rzeszow), 9(Rzeszow) - 5(Krakow), 5(Krakow) - 4(Katowice), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:12(Wroclaw) - 8(Poznan), o wartosci: 40
+12(Wroclaw) - 8(Poznan), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:11(Warsaw) - 6(Bialystok), o wartosci: 50
+11(Warsaw) - 6(Bialystok), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:8(Poznan) - 1(Gdansk), o wartosci: 70
+10(Szczecin) - 3(Kolobrzeg), 8(Poznan) - 10(Szczecin), 3(Kolobrzeg) - 1(Gdansk), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:7(Lodz) - 9(Rzeszow), o wartosci: 20
+5(Krakow) - 9(Rzeszow), 4(Katowice) - 5(Krakow), 7(Lodz) - 4(Katowice), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:12(Wroclaw) - 9(Rzeszow), o wartosci: 30
+12(Wroclaw) - 4(Katowice), 5(Krakow) - 9(Rzeszow), 4(Katowice) - 5(Krakow), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:1(Gdansk) - 7(Lodz), o wartosci: 60
+1(Gdansk) - 11(Warsaw), 11(Warsaw) - 7(Lodz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:2(Bydgoszcz) - 8(Poznan), o wartosci: 60
+2(Bydgoszcz) - 8(Poznan), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:1(Gdansk) - 10(Szczecin), o wartosci: 90
+1(Gdansk) - 3(Kolobrzeg), 3(Kolobrzeg) - 10(Szczecin), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:4(Katowice) - 5(Krakow), o wartosci: 10
+4(Katowice) - 5(Krakow), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:3(Kolobrzeg) - 5(Krakow), o wartosci: 20
+1(Gdansk) - 11(Warsaw), 11(Warsaw) - 5(Krakow), 3(Kolobrzeg) - 1(Gdansk), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:9(Rzeszow) - 5(Krakow), o wartosci: 40
+9(Rzeszow) - 5(Krakow), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:6(Bialystok) - 10(Szczecin), o wartosci: 40
+6(Bialystok) - 10(Szczecin), 
+Poszerzone: 
+Koszt dystrybucji: 7.524104505
+
+Ruch miêdzy:5(Krakow) - 8(Poznan), o wartosci: 30
+4(Katowice) - 12(Wroclaw), 12(Wroclaw) - 8(Poznan), 5(Krakow) - 4(Katowice), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:11(Warsaw) - 12(Wroclaw), o wartosci: 10
+4(Katowice) - 7(Lodz), 11(Warsaw) - 5(Krakow), 7(Lodz) - 12(Wroclaw), 5(Krakow) - 4(Katowice), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:10(Szczecin) - 2(Bydgoszcz), o wartosci: 80
+10(Szczecin) - 8(Poznan), 8(Poznan) - 2(Bydgoszcz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:6(Bialystok) - 7(Lodz), o wartosci: 10
+6(Bialystok) - 9(Rzeszow), 4(Katowice) - 7(Lodz), 9(Rzeszow) - 5(Krakow), 5(Krakow) - 4(Katowice), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:12(Wroclaw) - 3(Kolobrzeg), o wartosci: 90
+12(Wroclaw) - 6(Bialystok), 6(Bialystok) - 3(Kolobrzeg), 
+Poszerzone: 
+Koszt dystrybucji: 25.608753948
+
+Ruch miêdzy:11(Warsaw) - 7(Lodz), o wartosci: 40
+11(Warsaw) - 7(Lodz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:1(Gdansk) - 4(Katowice), o wartosci: 30
+1(Gdansk) - 11(Warsaw), 11(Warsaw) - 7(Lodz), 7(Lodz) - 4(Katowice), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:2(Bydgoszcz) - 3(Kolobrzeg), o wartosci: 10
+2(Bydgoszcz) - 3(Kolobrzeg), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:5(Krakow) - 10(Szczecin), o wartosci: 50
+9(Rzeszow) - 6(Bialystok), 5(Krakow) - 9(Rzeszow), 6(Bialystok) - 10(Szczecin), 
+Poszerzone: 
+Koszt dystrybucji: 7.524104505
+
+Ruch miêdzy:3(Kolobrzeg) - 10(Szczecin), o wartosci: 70
+3(Kolobrzeg) - 10(Szczecin), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:9(Rzeszow) - 2(Bydgoszcz), o wartosci: 70
+9(Rzeszow) - 6(Bialystok), 6(Bialystok) - 11(Warsaw), 11(Warsaw) - 2(Bydgoszcz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:7(Lodz) - 4(Katowice), o wartosci: 30
+7(Lodz) - 12(Wroclaw), 12(Wroclaw) - 4(Katowice), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:12(Wroclaw) - 2(Bydgoszcz), o wartosci: 100
+12(Wroclaw) - 6(Bialystok), 3(Kolobrzeg) - 2(Bydgoszcz), 6(Bialystok) - 3(Kolobrzeg), 
+Poszerzone: 
+Koszt dystrybucji: 25.608753948
+
+Ruch miêdzy:8(Poznan) - 11(Warsaw), o wartosci: 30
+2(Bydgoszcz) - 11(Warsaw), 8(Poznan) - 2(Bydgoszcz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:9(Rzeszow) - 12(Wroclaw), o wartosci: 30
+4(Katowice) - 12(Wroclaw), 9(Rzeszow) - 5(Krakow), 5(Krakow) - 4(Katowice), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:3(Kolobrzeg) - 11(Warsaw), o wartosci: 80
+6(Bialystok) - 11(Warsaw), 3(Kolobrzeg) - 10(Szczecin), 10(Szczecin) - 6(Bialystok), 
+Poszerzone: 
+Koszt dystrybucji: 7.524104505
+
+Ruch miêdzy:10(Szczecin) - 11(Warsaw), o wartosci: 10
+3(Kolobrzeg) - 2(Bydgoszcz), 2(Bydgoszcz) - 11(Warsaw), 10(Szczecin) - 3(Kolobrzeg), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:11(Warsaw) - 2(Bydgoszcz), o wartosci: 90
+3(Kolobrzeg) - 2(Bydgoszcz), 11(Warsaw) - 6(Bialystok), 6(Bialystok) - 3(Kolobrzeg), 
+Poszerzone: 
+Koszt dystrybucji: 11.56587649
+
+Ruch miêdzy:8(Poznan) - 10(Szczecin), o wartosci: 20
+8(Poznan) - 10(Szczecin), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:4(Katowice) - 9(Rzeszow), o wartosci: 50
+5(Krakow) - 9(Rzeszow), 4(Katowice) - 5(Krakow), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:3(Kolobrzeg) - 1(Gdansk), o wartosci: 20
+3(Kolobrzeg) - 1(Gdansk), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:2(Bydgoszcz) - 9(Rzeszow), o wartosci: 70
+2(Bydgoszcz) - 11(Warsaw), 11(Warsaw) - 5(Krakow), 5(Krakow) - 9(Rzeszow), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:5(Krakow) - 4(Katowice), o wartosci: 10
+5(Krakow) - 4(Katowice), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:10(Szczecin) - 6(Bialystok), o wartosci: 40
+10(Szczecin) - 6(Bialystok), 
+Poszerzone: 
+Koszt dystrybucji: 7.524104505
+
+Ruch miêdzy:6(Bialystok) - 3(Kolobrzeg), o wartosci: 30
+10(Szczecin) - 3(Kolobrzeg), 6(Bialystok) - 10(Szczecin), 
+Poszerzone: 
+Koszt dystrybucji: 7.524104505
+
+Ruch miêdzy:12(Wroclaw) - 7(Lodz), o wartosci: 50
+12(Wroclaw) - 7(Lodz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Ruch miêdzy:11(Warsaw) - 3(Kolobrzeg), o wartosci: 80
+2(Bydgoszcz) - 3(Kolobrzeg), 11(Warsaw) - 2(Bydgoszcz), 
+Poszerzone: 
+Koszt dystrybucji: 0
+
+Istniejacy ³uk:  <1 11> przenosi ruch o wartosci: 300 z zadan:  <1 11> 100,  <1 5> 40,  <3 7> 40,  <10 9> 10,  <1 7> 60,  <3 5> 20,  <1 4> 30, 
+Nowy ³uk:  <3 6> przenosi ruch o wartosci: 250 z zadan:  <2 12> 100,  <3 12> 90,  <3 9> 60, 
+Istniejacy ³uk:  <9 6> przenosi ruch o wartosci: 300 z zadan:  <9 6> 30,  <9 3> 60,  <9 1> 80,  <7 6> 10,  <5 10> 50,  <9 2> 70, 
+Istniejacy ³uk:  <6 9> przenosi ruch o wartosci: 300 z zadan:  <6 9> 30,  <10 5> 50,  <6 2> 40,  <1 9> 80,  <3 9> 60,  <10 9> 10,  <6 4> 20,  <6 7> 10, 
+Nowy ³uk:  <12 6> przenosi ruch o wartosci: 300 z zadan:  <12 1> 110,  <12 3> 90,  <12 2> 100, 
+Istniejacy ³uk:  <7 11> przenosi ruch o wartosci: 300 z zadan:  <12 6> 60,  <7 11> 40,  <7 1> 60,  <12 11> 10,  <4 6> 20,  <7 3> 40,  <4 11> 70, 
+Istniejacy ³uk:  <5 11> przenosi ruch o wartosci: 280 z zadan:  <5 1> 40,  <5 11> 60,  <5 6> 10,  <4 2> 20,  <6 2> 40,  <5 2> 30,  <4 1> 30,  <9 11> 20,  <9 8> 10,  <5 3> 20, 
+Nowy ³uk:  <6 12> przenosi ruch o wartosci: 300 z zadan:  <2 12> 100,  <3 12> 90,  <1 12> 110, 
+Istniejacy ³uk:  <4 12> przenosi ruch o wartosci: 300 z zadan:  <4 8> 40,  <6 12> 60,  <9 10> 10,  <5 12> 70,  <4 10> 60,  <5 8> 30,  <9 12> 30, 
+Istniejacy ³uk:  <3 2> przenosi ruch o wartosci: 300 z zadan:  <1 8> 70,  <1 2> 10,  <3 2> 10,  <3 4> 10,  <12 2> 100,  <10 11> 10,  <11 2> 90, 
+Istniejacy ³uk:  <4 7> przenosi ruch o wartosci: 280 z zadan:  <4 3> 10,  <4 12> 80,  <4 7> 30,  <9 7> 20,  <11 10> 10,  <4 6> 20,  <5 7> 20,  <4 11> 70,  <11 12> 10,  <6 7> 10, 
+Istniejacy ³uk:  <2 11> przenosi ruch o wartosci: 300 z zadan:  <2 6> 40,  <2 11> 90,  <2 1> 10,  <2 4> 20,  <2 5> 30,  <8 11> 30,  <10 11> 10,  <2 9> 70, 
+Istniejacy ³uk:  <10 8> przenosi ruch o wartosci: 290 z zadan:  <11 8> 30,  <10 4> 60,  <10 8> 20,  <3 8> 50,  <10 12> 20,  <10 7> 30,  <10 2> 80, 
+Istniejacy ³uk:  <11 5> przenosi ruch o wartosci: 280 z zadan:  <11 9> 20,  <1 5> 40,  <6 5> 10,  <11 5> 60,  <2 4> 20,  <2 5> 30,  <3 5> 20,  <11 12> 10,  <2 9> 70, 
+Istniejacy ³uk:  <8 2> przenosi ruch o wartosci: 290 z zadan:  <8 6> 20,  <8 3> 50,  <8 2> 60,  <7 2> 50,  <10 2> 80,  <8 11> 30, 
+Istniejacy ³uk:  <7 12> przenosi ruch o wartosci: 270 z zadan:  <7 10> 30,  <7 8> 10,  <4 3> 10,  <4 12> 80,  <7 12> 50,  <7 2> 50,  <11 12> 10,  <7 4> 30, 
+Istniejacy ³uk:  <1 6> przenosi ruch o wartosci: 300 z zadan:  <3 6> 30,  <5 6> 10,  <8 6> 20,  <1 12> 110,  <1 6> 50,  <1 9> 80, 
+Istniejacy ³uk:  <6 11> przenosi ruch o wartosci: 290 z zadan:  <6 12> 60,  <6 5> 10,  <6 11> 50,  <6 8> 20,  <9 2> 70,  <3 11> 80, 
+Istniejacy ³uk:  <10 3> przenosi ruch o wartosci: 290 z zadan:  <10 1> 90,  <4 3> 10,  <10 3> 70,  <10 9> 10,  <8 1> 70,  <10 11> 10,  <6 3> 30, 
+Istniejacy ³uk:  <12 4> przenosi ruch o wartosci: 290 z zadan:  <8 4> 40,  <8 9> 10,  <12 5> 70,  <12 4> 80,  <8 5> 30,  <12 9> 30,  <7 4> 30, 
+Istniejacy ³uk:  <1 3> przenosi ruch o wartosci: 300 z zadan:  <1 8> 70,  <9 3> 60,  <1 2> 10,  <11 10> 10,  <1 3> 20,  <7 3> 40,  <1 10> 90, 
+Istniejacy ³uk:  <5 9> przenosi ruch o wartosci: 300 z zadan:  <11 9> 20,  <8 9> 10,  <5 9> 40,  <7 6> 10,  <7 9> 20,  <12 9> 30,  <5 10> 50,  <4 9> 50,  <2 9> 70, 
+Istniejacy ³uk:  <8 12> przenosi ruch o wartosci: 300 z zadan:  <8 4> 40,  <2 7> 50,  <8 7> 10,  <10 4> 60,  <8 9> 10,  <8 5> 30,  <8 12> 40,  <10 12> 20,  <3 4> 10,  <10 7> 30, 
+Istniejacy ³uk:  <6 1> przenosi ruch o wartosci: 300 z zadan:  <9 3> 60,  <12 1> 110,  <9 1> 80,  <6 1> 50, 
+Istniejacy ³uk:  <11 1> przenosi ruch o wartosci: 300 z zadan:  <5 1> 40,  <5 6> 10,  <7 1> 60,  <11 10> 10,  <2 1> 10,  <4 1> 30,  <7 3> 40,  <11 1> 100, 
+Istniejacy ³uk:  <12 8> przenosi ruch o wartosci: 300 z zadan:  <7 10> 30,  <4 8> 40,  <7 8> 10,  <4 3> 10,  <9 10> 10,  <12 10> 20,  <7 2> 50,  <4 10> 60,  <12 8> 40,  <5 8> 30, 
+Istniejacy ³uk:  <11 6> przenosi ruch o wartosci: 300 z zadan:  <12 6> 60,  <11 8> 30,  <2 6> 40,  <4 6> 20,  <10 9> 10,  <11 6> 50,  <11 2> 90, 
+Istniejacy ³uk:  <2 8> przenosi ruch o wartosci: 300 z zadan:  <1 8> 70,  <2 7> 50,  <6 8> 20,  <3 4> 10,  <2 10> 80,  <9 8> 10,  <2 8> 60, 
+Istniejacy ³uk:  <4 5> przenosi ruch o wartosci: 300 z zadan:  <4 2> 20,  <8 9> 10,  <7 5> 20,  <12 5> 70,  <8 5> 30,  <4 1> 30,  <7 6> 10,  <7 9> 20,  <12 9> 30,  <4 5> 10,  <4 9> 50, 
+Istniejacy ³uk:  <9 5> przenosi ruch o wartosci: 300 z zadan:  <9 10> 10,  <10 5> 50,  <6 2> 40,  <9 7> 20,  <9 4> 50,  <9 11> 20,  <9 8> 10,  <6 4> 20,  <9 5> 40,  <6 7> 10,  <9 12> 30, 
+Nowy ³uk:  <6 10> przenosi ruch o wartosci: 150 z zadan:  <11 8> 30,  <6 10> 40,  <5 10> 50,  <6 3> 30, 
+Istniejacy ³uk:  <11 7> przenosi ruch o wartosci: 300 z zadan:  <3 7> 40,  <6 12> 60,  <11 4> 70,  <1 7> 60,  <11 7> 40,  <1 4> 30, 
+Istniejacy ³uk:  <2 3> przenosi ruch o wartosci: 280 z zadan:  <2 12> 100,  <8 6> 20,  <8 3> 50,  <5 3> 20,  <2 3> 10,  <11 3> 80, 
+Istniejacy ³uk:  <3 10> przenosi ruch o wartosci: 300 z zadan:  <11 10> 10,  <3 8> 50,  <1 10> 90,  <3 10> 70,  <3 11> 80, 
+Istniejacy ³uk:  <7 4> przenosi ruch o wartosci: 290 z zadan:  <6 12> 60,  <10 4> 60,  <11 4> 70,  <11 10> 10,  <7 5> 20,  <3 4> 10,  <7 6> 10,  <7 9> 20,  <1 4> 30, 
+Istniejacy ³uk:  <11 2> przenosi ruch o wartosci: 290 z zadan:  <4 2> 20,  <6 2> 40,  <5 2> 30,  <6 8> 20,  <9 8> 10,  <5 3> 20,  <9 2> 70,  <11 3> 80, 
+Istniejacy ³uk:  <8 10> przenosi ruch o wartosci: 300 z zadan:  <7 10> 30,  <4 3> 10,  <9 10> 10,  <12 10> 20,  <4 10> 60,  <2 10> 80,  <8 1> 70,  <8 10> 20, 
+Istniejacy ³uk:  <3 1> przenosi ruch o wartosci: 300 z zadan:  <3 6> 30,  <10 1> 90,  <3 7> 40,  <8 6> 20,  <10 9> 10,  <8 1> 70,  <3 5> 20,  <3 1> 20, 
+Istniejacy ³uk:  <5 4> przenosi ruch o wartosci: 300 z zadan:  <9 10> 10,  <9 7> 20,  <5 12> 70,  <9 4> 50,  <5 7> 20,  <2 4> 20,  <6 4> 20,  <5 8> 30,  <11 12> 10,  <6 7> 10,  <9 12> 30,  <5 4> 10, 
+Nowy ³uk:  <10 6> przenosi ruch o wartosci: 170 z zadan:  <10 5> 50,  <3 11> 80,  <10 6> 40, 
+Nowy ³uk:  <6 3> przenosi ruch o wartosci: 280 z zadan:  <12 3> 90,  <12 2> 100,  <11 2> 90, 
+Istniejacy ³uk:  <12 7> przenosi ruch o wartosci: 280 z zadan:  <2 7> 50,  <12 6> 60,  <8 7> 10,  <10 4> 60,  <12 11> 10,  <3 4> 10,  <10 7> 30,  <12 7> 50, 
+Wartoœæ mincost = 206.321255228

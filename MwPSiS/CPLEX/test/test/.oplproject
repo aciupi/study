@@ -2,11 +2,11 @@
 	<version>1.0</version>
 	<configs>
 		<config default="true" name="Konfiguracja1" category="opl">
-			<ref name="test.mod" type="model">
+			<ref name="sndlib_poland_small.dat" type="data">
 			</ref>
-			<ref name="test.ops" type="setting">
+			<ref name="mwpsis_projekt.mod" type="model">
 			</ref>
-			<ref name="test.dat" type="data">
+			<ref name="mwpsis_projekt.ops" type="setting">
 			</ref>
 		</config>
 	</configs>

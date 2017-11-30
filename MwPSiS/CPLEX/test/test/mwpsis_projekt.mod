@@ -20,11 +20,15 @@
  {Arc} Arcs with src in Nodes, dst in Nodes = ...;
  {Arc} ExistingArcs with src in Nodes, dst in Nodes = ...;
  
- float Capacity[cap in Arcs] = (cap in ExistingArcs) ? 155 : infinity;
+ float Distances[Arcs] = ...;
+ 
+ float Capacity[cap in Arcs] = (cap in ExistingArcs) ? 300 : infinity;
  float AdditionalCapacity[cap in ExistingArcs] = infinity;
  
- float Cost[cap in Arcs] = (cap in ExistingArcs) ? 0 : 100*abs(cap.src - cap.dst);
- float AdditionalCost[cap in ExistingArcs] = 100*abs(cap.src - cap.dst);  
+ float Cost[cap in Arcs] = (cap in ExistingArcs) ? 0 : 0.5772^(ln(2)+4*ln(Distances[cap]/1000))*1000;
+// float Cost[cap in Arcs] = (cap in ExistingArcs) ? 0 : 10*abs(cap.src-cap.dst);
+// float AdditionalCost[cap in ExistingArcs] = 10*abs(cap.src-cap.dst);
+ float AdditionalCost[cap in ExistingArcs] = 0.5772^(ln(2)+4*ln(Distances[cap]/1000))*1000;  
  
  {Demand} Demands = {<src, dst> | <src, dst> in Arcs};
 // {Demand} Demands with src in Nodes, dst in Nodes = ...;
@@ -69,34 +73,24 @@
 	forall(e in ExistingArcs)
 	  	sum(d in Demands) AdditionalPaths[d][e]*Volume[d] <= AdditionalCapacity[e];
 	
+	//
+	
 	//brak straty w ruchu
 	forall (d in Demands)
-	  	//forall(n in Nodes: n!=d.src && n!=d.dst)
-	    		//sum(i in Arcs: i.src==n)Paths[d][i] + sum(i in ExistingArcs: i.src==n)AdditionalPaths[d][i] - sum(j in Arcs: j.dst==n)Paths[d][j] - sum(j in ExistingArcs: j.dst==n)AdditionalPaths[d][j] == 0;
-			//sum(i in Arcs: i.src==n && Paths[d][i]==1) i.src + sum(i in ExistingArcs: i.src==n && AdditionalPaths[d][i]==1) i.src - sum(j in Arcs: j.dst==n && Paths[d][j]==1) j.dst - sum(j in ExistingArcs: j.dst==n && AdditionalPaths[d][j]==1) j.dst == 0;   
- 		sum(i in Arcs: i.src!=d.src && Paths[d][i]==1) i.src + sum(i in ExistingArcs: i.src!=d.src && AdditionalPaths[d][i]==1) i.src - sum(j in Arcs: j.dst!=d.dst && Paths[d][j]==1) j.dst - sum(j in ExistingArcs: j.dst!=d.dst && AdditionalPaths[d][j]==1) j.dst == 0;
+ 		sum(i in Arcs: i.src!=d.src) Paths[d][i]*i.src + sum(i in ExistingArcs: i.src!=d.src) AdditionalPaths[d][i]*i.src - sum(j in Arcs: j.dst!=d.dst) Paths[d][j]*j.dst - sum(j in ExistingArcs: j.dst!=d.dst) AdditionalPaths[d][j]*j.dst == 0;
  }
  
  // ########################################################################################
  
-// execute INIT_Capacity { 
-// 	writeln(Capacity); }
-// execute INIT_Demands {
-// 	writeln(Demands); }
-// execute INIT_Volume {
-// 	writeln(Volume); }
-// execute INIT_Cost {
-// 	writeln(Cost); }
- 
  execute {
-// 	writeln(Arcs);
-// 	writeln(Existing_arcs);
 	var results_file = new IloOplOutputFile("results.txt");
  	writeln("Dystrybucja ruchu:");
 	results_file.writeln("Dystrybucja ruchu:");
 	for (var d in Demands){
-	 	writeln("Ruch miÃªdzy:", d.src, "(", NodesNames[d.src], ") - ", d.dst, "(", NodesNames[d.dst], "), ");
-		results_file.writeln("Ruch miÃªdzy:", d.src, "(", NodesNames[d.src], ") - ", d.dst, "(", NodesNames[d.dst], "), ");
+	 	writeln();
+		results_file.writeln();
+	 	writeln("Ruch miêdzy:", d.src, "(", NodesNames[d.src], ") - ", d.dst, "(", NodesNames[d.dst], "), o wartosci: ", Volume[d]);
+		results_file.writeln("Ruch miêdzy:", d.src, "(", NodesNames[d.src], ") - ", d.dst, "(", NodesNames[d.dst], "), o wartosci: ", Volume[d]);
 		var cost = 0;
 		for(var a in Arcs){
 			if(Paths[d][a] > 0){
@@ -120,12 +114,15 @@
 		results_file.writeln();
 		writeln("Koszt dystrybucji: ", cost);
 		results_file.writeln("Koszt dystrybucji: ", cost);
-	} 
+	}
+	writeln();
+	results_file.writeln(); 
 	for (var i in Arcs){ 
-	 	var flow = 0, existing = 0;
+	 	var flow = 0, existing = 0, tab = "";
 	 	for (var d in Demands){
 			if(Paths[d][i] > 0){
 				flow = flow + Volume[d];
+				tab += d + " " + Volume[d] + ", ";
 			}
 		}
 		for (var e in ExistingArcs){
@@ -142,24 +139,25 @@
 				write("Nowy ");
 				results_file.write("Nowy "); 
 			}
-			writeln("Â³uk: ", i, " przenosi ruch: ", flow);
-			results_file.writeln("Â³uk: ", i, " przenosi ruch: ", flow);
-		}	
+			writeln("³uk: ", i, " przenosi ruch o wartosci: ", flow, " z zadan: ", tab);
+			results_file.writeln("³uk: ", i, " przenosi ruch o wartosci: ", flow, " z zadan: ", tab);
+		}	 
 	}
 	for (var e in ExistingArcs){
-		var flow = 0;	
+		var flow = 0, tab = "";
 		for (var d in Demands){
 			if(AdditionalPaths[d][e] > 0){
 				flow = flow + Volume[d];
+				tab += d + " " + Volume[d] + ", ";
 			}
 		}
 		if (flow > 0){
-			writeln("Poszerzono Â³uk: ", e, ", przenosi dodatkowy ruch: ", flow);
-			results_file.writeln("Poszerzono Â³uk: ", e, ", przenosi dodatkowy ruch: ", flow); 
+			writeln("Poszerzono ³uk: ", e, ", przenosi dodatkowy ruch o wartosci: ", flow, " z zadan: ", tab);
+			results_file.writeln("Poszerzono ³uk: ", e, ", przenosi dodatkowy ruch o wartosci: ", flow, " z zadan: ", tab); 
 		}
 	}
-	writeln("WartoÅ“Ã¦ mincost = ", cplex.getObjValue());
-	results_file.writeln("WartoÅ“Ã¦ mincost = ", cplex.getObjValue());
+	writeln("Wartoœæ mincost = ", cplex.getObjValue());
+	results_file.writeln("Wartoœæ mincost = ", cplex.getObjValue());
 	results_file.close();
 }
  
