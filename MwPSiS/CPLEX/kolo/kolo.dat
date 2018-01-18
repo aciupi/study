@@ -1,0 +1,39 @@
+/*********************************************
+ * OPL 12.7.1.0 Data
+ * Author: admin
+ * Creation Date: 10 sty 2018 at 20:40:25
+ *********************************************/
+ 
+K = 14;
+Nodes = {<"Szczecin",1>,
+<"Ko³obrzeg",2>,
+<"Gdañsk",3>,
+<"Bydgoszcz",4>,
+<"Poznañ",5>,
+<"Bia³ystok",6>,
+<"Warszawa",7>,
+<"£ódŸ",8>,
+<"Wroc³aw",9>,
+<"Katowice",10>,
+<"Kraków",11>,
+<"Rzeszów",12>};
+
+
+Connections = {<<"Szczecin",1>, <"Ko³obrzeg",2>>,
+<<"Szczecin",1>, <"Poznañ",5>>,
+<<"Ko³obrzeg",2>, <"Gdañsk",3>>,
+<<"Ko³obrzeg",2>, <"Bydgoszcz",4>>,
+<<"Gdañsk",3>, <"Bia³ystok",6>>,
+<<"Gdañsk",3>, <"Warszawa",7>>,
+<<"Bydgoszcz",4>, <"Warszawa",7>>,
+<<"Bydgoszcz",4>, <"Poznañ",5>>,
+<<"Poznañ",5>, <"Wroc³aw",9>>,
+<<"Bia³ystok",6>, <"Warszawa",7>>,
+<<"Bia³ystok",6>, <"Rzeszów",12>>,
+<<"Warszawa",7>, <"£ódŸ",8>>,
+<<"Warszawa",7>, <"Kraków",11>>,
+<<"£ódŸ",8>, <"Katowice",10>>,
+<<"Wroc³aw",9>, <"£ódŸ",8>>,
+<<"Wroc³aw",9>, <"Katowice",10>>,
+<<"Katowice",10>, <"Kraków",11>>,
+<<"Kraków",11>, <"Rzeszów",12>>};

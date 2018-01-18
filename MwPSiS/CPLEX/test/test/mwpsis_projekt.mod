@@ -25,20 +25,22 @@
  float Capacity[cap in Arcs] = (cap in ExistingArcs) ? 300 : infinity;
  float AdditionalCapacity[cap in ExistingArcs] = infinity;
  
- float Cost[cap in Arcs] = (cap in ExistingArcs) ? 0 : 0.5772^(ln(2)+4*ln(Distances[cap]/1000))*1000;
+// float Cost[cap in Arcs] = (cap in ExistingArcs) ? 0 : 0.5772^(ln(2)+4*ln(Distances[cap]/1000))*1000;
 // float Cost[cap in Arcs] = (cap in ExistingArcs) ? 0 : 10*abs(cap.src-cap.dst);
 // float AdditionalCost[cap in ExistingArcs] = 10*abs(cap.src-cap.dst);
- float AdditionalCost[cap in ExistingArcs] = 0.5772^(ln(2)+4*ln(Distances[cap]/1000))*1000;  
+// float AdditionalCost[cap in ExistingArcs] = 0.5772^(ln(2)+4*ln(Distances[cap]/1000))*1000;  
+ 
+ float Cost[cap in Arcs] = ...;
+ float AdditionalCost[cap in ExistingArcs] = ...;
  
  {Demand} Demands = {<src, dst> | <src, dst> in Arcs};
-// {Demand} Demands with src in Nodes, dst in Nodes = ...;
  float Volume[vol in Demands] = 10*abs(vol.src-vol.dst);   
 
- //Set of outgoing neighbors
+ //Wychodzacy sasiedzi
  {int} NbsO[i in Nodes] = {j | <i,j> in Arcs};
  {int} AdditionalNbsO[i in Nodes] = {j | <i,j> in ExistingArcs};
  
- //Set of ingoing neighbors
+ //Przychodzacy sasiedzi
  {int} NbsI[i in Nodes] = {j | <j,i> in Arcs};
  {int} AdditionalNbsI[i in Nodes] = {j | <j,i> in ExistingArcs};
  
@@ -55,10 +57,10 @@
  
  subject to {
  
- 	//jeden z lukow wychodzacyh ze zrodla s musi nalezec do min-path
+ 	//jeden z lukow wychodzacych ze zrodla s musi nalezec do min-path
  	forall (d in Demands)
 		sum(n in NbsO[d.src]) Paths[d][<d.src,n>] == 1 || sum(n in AdditionalNbsO[d.src]) AdditionalPaths[d][<d.src,n>] == 1; 
-	//jeden z lukow wchodzacyh do ujscia t musi nalezec do min-path
+	//jeden z lukow wchodzacych do ujscia t musi nalezec do min-path
  	forall (d in Demands)
 	  	sum(n in NbsI[d.dst]) Paths[d][<n,d.dst>] == 1 || sum(n in AdditionalNbsI[d.dst]) AdditionalPaths[d][<n,d.dst>] == 1; 
  
@@ -72,8 +74,6 @@
 		sum(d in Demands) Paths[d][i]*Volume[d] <= Capacity[i];
 	forall(e in ExistingArcs)
 	  	sum(d in Demands) AdditionalPaths[d][e]*Volume[d] <= AdditionalCapacity[e];
-	
-	//
 	
 	//brak straty w ruchu
 	forall (d in Demands)

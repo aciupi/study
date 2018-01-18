@@ -48,14 +48,14 @@
         forall (a in Arcs)
           sum (d in Demands) x[d][a] == y[a];
           
-        forall (d in Demands)
-		  sum(n in NbsO[d.source]) u1[d][<d.source,n>] == 1;
+//        forall (d in Demands)
+//		  sum(n in NbsO[d.source]) u1[d][<d.source,n>] == 1;
 		
- 	    forall (d in Demands)
-	  	  sum(n in NbsI[d.destination]) u1[d][<n,d.destination>] == 1;
+// 	    forall (d in Demands)
+//	  	  sum(n in NbsI[d.destination]) u1[d][<n,d.destination>] == 1;
 	  	
-	  	forall (d in Demands)
-	  	  forall (a in Arcs)
+//	  	forall (d in Demands)
+//	  	  forall (a in Arcs)
 		
 		forall (d in Demands)
 	 		forall(n in NodKirch[d]) 
@@ -64,8 +64,12 @@
  };
  
  execute {
- 	writeln(Arcs); 
+ 	writeln(Arcs);
+ 	writeln(Demands);
+ 	writeln(Volume);
     writeln(u1);
+    writeln(y);
+    writeln(x);
     writeln(NodKirch);
     writeln("Wartoœæ mincost = ", cplex.getObjValue());
  }

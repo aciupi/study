@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="ASCII"?><project>
 	<version>1.0</version>
 	<configs>
-		<config default="true" name="Konfiguracja1" category="opl">
+		<config default="false" name="europe_medium" category="opl">
+			<ref name="sndlib_europe_medium.dat" type="data">
+			</ref>
+			<ref name="mwpsis_projekt.mod" type="model">
+			</ref>
+			<ref name="mwpsis_projekt.ops" type="setting">
+			</ref>
+		</config>
+		<config default="false" name="germany_big" category="opl">
+			<ref name="mwpsis_projekt.mod" type="model">
+			</ref>
+			<ref name="mwpsis_projekt.ops" type="setting">
+			</ref>
+			<ref name="sndlib_germany_big.dat" type="data">
+			</ref>
+		</config>
+		<config default="true" name="poland_small" category="opl">
 			<ref name="sndlib_poland_small.dat" type="data">
 			</ref>
 			<ref name="mwpsis_projekt.mod" type="model">
